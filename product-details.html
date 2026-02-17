@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VERA CARE | Product Details</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .product-detail-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      padding: 40px 0;
+    }
+    
+    .product-image-section img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-info-section h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .product-info-section p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .product-detail-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      
+      .product-info-section h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo" data-i18n="logo">VERA CARE</div>
+
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="products-details.html" data-i18n="nav_products">Products</a>
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <!-- Language Switch -->
+      <div class="lang-switch">
+        <button onclick="switchLanguage('en')">EN</button>
+        <button onclick="switchLanguage('ar')">AR</button>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- ====== PRODUCT DETAIL ====== -->
+  <section class="products">
+    <div class="container">
+      <a href="products-details.html" class="back-link" data-i18n="back_to_products">← Back to Products</a>
+      
+      <div class="product-detail-container">
+        <div class="product-image-section">
+          <img id="product-image" src="" alt="Product">
+        </div>
+        
+        <div class="product-info-section">
+          <h1 id="product-name"></h1>
+          <p id="product-description"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <h3 data-i18n="logo">VERA CARE</h3>
+        <p>Trusted Pharmaceutical Care</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="products-details.html" data-i18n="nav_products">Products</a>
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+
+      <div class="footer-copy">
+        <p data-i18n="footer_copy">© 2026 vera-care. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="js/main.js"></script>
+  <script src="js/products-details.js"></script>
+</body>
+</html>

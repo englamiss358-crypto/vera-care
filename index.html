@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>vera-care | Pharmaceutical Company</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+  <div class="container header-container">
+    <div class="logo" data-i18n="logo">VERA CARE</div>
+
+    <nav class="nav">
+      <a href="#home" data-i18n="nav_home">Home</a>
+      <a href="products-details.html" data-i18n="nav_products">Products</a>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <!-- Language Switch -->
+    <div class="lang-switch">
+      <button onclick="switchLanguage('en')">EN</button>
+      <button onclick="switchLanguage('ar')">AR</button>
+
+    </div>
+   
+
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </div>
+</header>
+
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1 class="brand-name" data-i18n="brand-name">VERA CARE</h1>
+        <h2 class="brand-title"  data-i18n="brand-title">  where trust begins… and quality is made.</h2>
+
+      <p data-i18n="hero_desc">
+  We are a company specialized in developing health-supporting solutions, working with a clear vision that brings together science, precision, and commitment to the highest standards of quality.
+  We believe that caring for health is not a temporary choice, but a comprehensive approach built on innovation, reliability, and genuine care for people.
+
+  We are committed to delivering carefully designed solutions that keep pace with modern life and support balance and quality at every stage.
+  Everything we offer reflects our passion for details, our respect for science, and our dedication to building lasting trust.
+
+   We don’t just offer products…
+  We set a higher standard in health care.
+</p>
+
+        <a href="#products" class="btn-primary" data-i18n="btn-primary">Explore Products</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/logo3.jpg" alt="Pharmaceutical Products">
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container">
+    <h2 class="section-title" data-i18n="products_title">
+  Our Products
+</h2>
+
+
+      <div class="products-grid" id="productsGrid">
+        
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="images/vera-mega.jpg" alt="Product 2">
+          <h3>One Product. Complete Daily Nutrition.</h3>
+          <p>An All-in-One, Odor-Free Chewable Formula</p>
+          <a href="product-details.html?id=1" class="btn-secondary" data-i18n="btn-secondary">View Details</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="images/vera-ferti.jpg" alt="Product 1">
+          <h3 >Targeted Daily Nutrition for Men & Women</h3>
+          <p>Advanced Chewable Formula with Vitamins, Minerals, Inositols & Antioxidants</p>
+          <a href="product-details.html?id=2" class="btn-secondary" data-i18n="btn-secondary">View Details</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      
+
+      <div class="about-image">
+        <img src="images/healty2.jpg" alt="About vera-care">
+      </div>
+      <div class="about-image">
+        <img src="images/image-mega.jpg" alt="About vera-care">
+      </div>
+      <div class="about-image">
+        <img src="images/image-ferti.jpg" alt="About vera-care">
+      </div>
+    </div>
+    <div class="about-text">
+        <h2 data-i18n="about_title">About VERA CARE</h2>
+
+        <p data-i18n="about_desc">
+          vera-care is a pharmaceutical brand committed to delivering
+          safe, effective, and high-quality medical products.
+          Our mission is to improve patient health through
+          innovation and trusted formulations.
+        </p>
+      </div>
+  </section>
+  
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title" data-i18n="testimonials_title">What Our Clients Say</h2>
+
+      <!-- اراء العملاء الحالية -->
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div style="color: gold; font-size: 1.5rem; margin-bottom: 10px;">★★★★★</div>
+          <p style="font-style: italic; margin-bottom: 10px; color: #666;" data-i18n="review_dr_ahmed">
+            "Excellent quality and fast results. Highly recommended."
+          </p>
+          <h4 style="color: #1f2a44; font-weight: 600; margin-bottom: 5px;">Dr. Ahmed</h4>
+          <p style="color: #0a7cff; font-size: 0.9rem; margin: 0;">Medical Professional</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div style="color: gold; font-size: 1.5rem; margin-bottom: 10px;">★★★★★</div>
+          <p style="font-style: italic; margin-bottom: 10px; color: #666;" data-i18n="review_pharmacy_plus">
+            "Reliable pharmaceutical products with trusted results."
+          </p>
+          <h4 style="color: #1f2a44; font-weight: 600; margin-bottom: 5px;">Pharmacy Plus</h4>
+          <p style="color: #0a7cff; font-size: 0.9rem; margin: 0;">Certified Pharmacy</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div style="color: gold; font-size: 1.5rem; margin-bottom: 10px;">★★★★★</div>
+          <p style="font-style: italic; margin-bottom: 10px; color: #666;" data-i18n="review_medical_center">
+            "Professional service and great product effectiveness."
+          </p>
+          <h4 style="color: #1f2a44; font-weight: 600; margin-bottom: 5px;">Medical Center</h4>
+          <p style="color: #0a7cff; font-size: 0.9rem; margin: 0;">Healthcare Facility</p>
+        </div>
+      </div>
+
+      <!-- نموذج اضافة راي جديد -->
+      <div style="margin-top: 60px; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);">
+        <h3 style="text-align: center; margin-bottom: 30px; color: #1f2a44;" data-i18n="share_experience">Share Your Experience</h3>
+        <form id="testimonialForm" style="max-width: 600px; margin: 0 auto;">
+          <div style="margin-bottom: 15px;">
+            <input type="text" placeholder="Your Name" id="testimonialsName" required style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 1rem;" data-i18n="your_name">
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <input type="text" placeholder="Your Position/Company" id="testimonialsPosition" required style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 1rem;" data-i18n="your_position">
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <label style="display: block; margin-bottom: 8px; color: #1f2a44; font-weight: 600;" data-i18n="rating_label">Rating:</label>
+            <div id="ratingStars" style="font-size: 1.8rem; color: #ddd; cursor: pointer; letter-spacing: 5px;">
+              <span data-rating="1">★</span>
+              <span data-rating="2">★</span>
+              <span data-rating="3">★</span>
+              <span data-rating="4">★</span>
+              <span data-rating="5">★</span>
+            </div>
+            <input type="hidden" id="rating" value="5">
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <textarea placeholder="Your Review..." id="testimonialsText" required style="width: 100%; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 1rem; min-height: 100px; font-family: inherit;" data-i18n="your_review"></textarea>
+          </div>
+
+          <button type="submit" style="width: 100%; padding: 12px; background: linear-gradient(to right, #0a7cff, #00b894); color: white; border: none; border-radius: 30px; font-weight: 600; font-size: 1rem; cursor: pointer;" data-i18n="submit_review">Submit Review</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact_title">
+  Send Us a Message
+</h2>
+
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" data-i18n="contact_name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" data-i18n="contact_email" required>
+        </div>
+
+        <div class="form-group">
+          <textarea placeholder="Your Message" data-i18n="contact_message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" data-i18n="btn_send">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo" data-i18n="logo-footer">
+        <h3>vera-care</h3>
+        <p>Trusted Pharmaceutical Care</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="products-details.html" data-i18n="nav_products">Products</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+
+      <div class="footer-copy" data-i18n="footer_copy">
+        <p>© 2026 vera-care. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JS -->
+<script src="js/main.js"></script>
+<script src="js/products.js"></script>
+<script src="js/products-details.js"></script>
+
+
+</body>
+</html>

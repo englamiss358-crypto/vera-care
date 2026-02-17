@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "1",
+    "name": "One Product. Complete Daily Nutrition.",
+    "description": "An All-in-One, Odor-Free Chewable Formula",
+    "image": "images/vera-mega.jpg",
+    "fullDescription": "Boosts Focus & Brain Function – Thanks to high-purity Omega-3 and a full B-vitamin complex that supports cognitive health. Fights Fatigue & Supports Daily Energy – With vitamin B5 and magnesium to enhance physical and mental performance. Improves Skin Radiance & Reduces Wrinkles – Omega-3 combined with vitamin C and biotin helps nourish skin and promote collagen production. Strengthens Hair & Nails – Biotin and zinc promote healthy hair growth and improve nail strength. Supports Immunity & Cellular Protection – With selenium, zinc, vitamin C and D3 for strong immune defense and antioxidant action."
+  },
+  {
+    "ID": "2",
+    "name": "Targeted Daily Nutrition for Men & Women",
+    "description": "Advanced Chewable Formula with Vitamins, Minerals, Inositols & Antioxidants",
+    "image": "images/vera-ferti.jpg",
+    "fullDescription": "Advanced Fertility Support Formula. Myo-Inositol (1100 mg): Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function. D-Chiro Inositol (50 mg): Enhances insulin signaling & supports ovarian function and sperm quality. N-Acetyl Cysteine (100 mg): Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality."
+  }
+]

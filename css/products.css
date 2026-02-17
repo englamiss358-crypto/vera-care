@@ -1,0 +1,86 @@
+/* ================= PRODUCTS PAGE STYLES ================= */
+
+.product-detail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.product-image-section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: var(--text-dark);
+  background-image: linear-gradient(var(--primary-dark), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.product-info-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.back-link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .product-detail-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-info-section h1 {
+    font-size: 1.8em;
+  }
+
+  .product-image-section img {
+    max-width: 100%;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ================= RTL SUPPORT ================= */
+html[dir="rtl"] .back-link::before {
+  content: " ← ";
+  margin-right: 5px;
+}
+
+html[dir="rtl"] .back-link::after {
+  content: none;
+}
+
+html[dir="ltr"] .back-link::after {
+  content: " → ";
+  margin-left: 5px;
+}
+
+html[dir="ltr"] .back-link::before {
+  content: none;
+}
