@@ -49,8 +49,22 @@
 
     @media (max-width: 768px) {
       .product-detail-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
+        width: 100%;
+      }
+      
+      .product-image-section {
+        width: 100%;
+      }
+      
+      .product-image-section img {
+        max-width: 100%;
+      }
+      
+      .product-info-section {
+        width: 100%;
       }
       
       .product-info-section h1 {
