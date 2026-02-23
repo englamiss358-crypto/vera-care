@@ -47,6 +47,73 @@
       text-decoration: underline;
     }
 
+    .ingredients-section {
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 2px solid #e5e7eb;
+    }
+
+    .ingredients-section h2 {
+      font-size: 1.8em;
+      margin-bottom: 30px;
+      color: #1f2a44;
+      text-align: center;
+      width: 100%;
+    }
+
+    .ingredients-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .ingredients-text {
+      order: 1;
+    }
+
+    .ingredients-text p {
+      font-size: 1em;
+      line-height: 1.8;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .ingredients-text ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .ingredients-text li {
+      font-size: 0.95em;
+      line-height: 1.6;
+      color: #666;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .ingredients-text li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #10b981;
+      font-weight: bold;
+    }
+
+    .ingredients-image {
+      max-width: 400px;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      order: 2;
+    }
+
+    .ingredients-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
     @media (max-width: 768px) {
       .product-detail-container {
         display: flex;
@@ -69,6 +136,21 @@
       
       .product-info-section h1 {
         font-size: 1.8em;
+      }
+
+      .ingredients-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+      }
+
+      .ingredients-image {
+        max-width: 100%;
+        order: initial;
+      }
+
+      .ingredients-text {
+        order: initial;
       }
     }
   </style>
@@ -109,6 +191,19 @@
         <div class="product-info-section">
           <h1 id="product-name"></h1>
           <p id="product-description"></p>
+        </div>
+      </div>
+
+      <!-- Ingredients Section -->
+      <div class="ingredients-section">
+        <h2 data-i18n="ingredients_label">Key Ingredients</h2>
+        <div class="ingredients-content">
+          <div class="ingredients-text">
+            <p id="ingredients-description"></p>
+          </div>
+          <div class="ingredients-image">
+            <img id="ingredients-image" src="" alt="Ingredients">
+          </div>
         </div>
       </div>
     </div>

@@ -20,17 +20,23 @@ function renderProductDetail() {
     const productImage = document.getElementById('product-image');
     const productName = document.getElementById('product-name');
     const productDescription = document.getElementById('product-description');
+    const ingredientsImage = document.getElementById('ingredients-image');
+    const ingredientsDescription = document.getElementById('ingredients-description');
 
     // استخدم الترجمات من JSON
     const nameKey = `product_${product.ID}_name`;
     const descKey = `product_${product.ID}_full`;
+    const ingredientsDescKey = `product_${product.ID}_ingredients_desc`;
     
     const translatedName = t(nameKey) || product.name;
     const translatedDesc = t(descKey) || product.fullDescription || product.description;
+    const translatedIngredientsDesc = t(ingredientsDescKey) || product.ingredientsDescription;
 
     if (productImage) productImage.src = product.image;
     if (productName) productName.textContent = translatedName;
     if (productDescription) productDescription.textContent = translatedDesc;
+    if (ingredientsImage && product.ingredientsImage) ingredientsImage.src = product.ingredientsImage;
+    if (ingredientsDescription && product.ingredientsDescription) ingredientsDescription.textContent = translatedIngredientsDesc;
 }
 
 function showError(message) {
