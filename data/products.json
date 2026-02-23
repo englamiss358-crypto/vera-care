@@ -81,6 +81,70 @@
     "image": "images/vera-ferti.jpg",
     "ingredientsImage": "images/image-ferti.jpg",
     "ingredientsDescription": "Specially formulated for reproductive health and fertility support in both men and women. Myo-Inositol (1100mg) regulates metabolic processes and improves ovulation quality, particularly beneficial for PCOS. D-Chiro Inositol (50mg) enhances insulin sensitivity and hormonal balance for optimal reproductive function. N-Acetyl Cysteine (100mg) is a powerful antioxidant that reduces oxidative stress and supports egg and sperm quality. Combined with essential vitamins and minerals including folate, vitamin B12, vitamin D, and zinc, this formula creates a comprehensive nutritional foundation for fertility and reproductive wellness.",
+    "benefits": [
+      {
+        "title": "Improves Ovulation & Egg Quality",
+        "description": "Myo-Inositol supports ovulation and improves egg quality, especially beneficial for PCOS."
+      },
+      {
+        "title": "Enhances Sperm Motility & Quality",
+        "description": "Supports sperm count, motility, and overall reproductive health in men."
+      },
+      {
+        "title": "Hormone Balance & Metabolic Support",
+        "description": "D-Chiro Inositol enhances insulin sensitivity and supports healthy hormonal balance."
+      },
+      {
+        "title": "Reduces Oxidative Stress",
+        "description": "N-Acetyl Cysteine works as a powerful antioxidant to protect reproductive cells."
+      },
+      {
+        "title": "Complete Nutritional Support",
+        "description": "Combined with folate, vitamin B12, vitamin D, and zinc for comprehensive fertility support."
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Myo-Inositol (1100 mg)",
+        "description": "Regulates metabolic processes, improves ovulation quality, and supports PCOS management."
+      },
+      {
+        "name": "D-Chiro Inositol (50 mg)",
+        "description": "Enhances insulin signaling and supports ovarian and sperm function."
+      },
+      {
+        "name": "N-Acetyl Cysteine (100 mg)",
+        "description": "Powerful antioxidant that reduces oxidative stress and supports cell quality."
+      },
+      {
+        "name": "Folate",
+        "description": "Essential for DNA synthesis and reproductive cell development."
+      },
+      {
+        "name": "Vitamin B12",
+        "description": "Supports energy production and reproductive health."
+      },
+      {
+        "name": "Vitamin D",
+        "description": "Crucial for hormone regulation and reproductive function."
+      },
+      {
+        "name": "Zinc",
+        "description": "Essential for sperm production and female reproductive health."
+      }
+    ],
+    "whyStandOut": [
+      "Scientific formula specifically designed for fertility support in both men and women.",
+      "Comprehensive approach combining inositols, antioxidants, and essential vitamins.",
+      "Clinically researched ingredients proven to support reproductive wellness.",
+      "Specially formulated for PCOS and fertility challenges."
+    ],
+    "howToUse": [
+      "Chew one tablet daily with or without food.",
+      "Consistency is key - take daily for optimal results.",
+      "Consult with your healthcare provider for personalized guidance.",
+      "Food supplements should be part of a varied and balanced diet."
+    ],
     "fullDescription": "Advanced Fertility Support Formula. Myo-Inositol (1100 mg): Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function. D-Chiro Inositol (50 mg): Enhances insulin signaling & supports ovarian function and sperm quality. N-Acetyl Cysteine (100 mg): Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality."
   }
 ]
