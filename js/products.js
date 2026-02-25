@@ -39,6 +39,11 @@ function renderProducts() {
         `;
         container.appendChild(card);
     });
+    
+    // تطبيق الترجمات مباشرة بعد إنشاء العناصر
+    if (typeof updatePageTranslations === 'function') {
+        updatePageTranslations();
+    }
 }
 
 function showProductsError() {
