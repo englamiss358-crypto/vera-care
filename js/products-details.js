@@ -24,14 +24,12 @@ function renderProductDetail() {
     const ingredientsDescription = document.getElementById('ingredients-description');
     const detailsContent = document.getElementById('product-details-content');
 
-    // استخدم الترجمات من JSON
-    const nameKey = `product_${product.ID}_name`;
-    const descKey = `product_${product.ID}_full`;
-    const ingredientsDescKey = `product_${product.ID}_ingredients_desc`;
+    const currentLang = localStorage.getItem('lang') || 'en';
     
-    const translatedName = t(nameKey) || product.name;
-    const translatedDesc = t(descKey) || product.fullDescription || product.description;
-    const translatedIngredientsDesc = t(ingredientsDescKey) || product.ingredientsDescription;
+    // استخدم الترجمات من products.json مباشرة
+    const translatedName = currentLang === 'ar' ? (product.nameAr || product.name) : product.name;
+    const translatedDesc = currentLang === 'ar' ? (product.fullDescriptionAr || product.fullDescription || product.description) : (product.fullDescription || product.description);
+    const translatedIngredientsDesc = currentLang === 'ar' ? (product.ingredientsDescriptionAr || product.ingredientsDescription) : product.ingredientsDescription;
 
     if (productImage) productImage.src = product.image;
     if (productName) productName.textContent = translatedName;

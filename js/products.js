@@ -25,13 +25,11 @@ function renderProducts() {
         const card = document.createElement('div');
         card.className = 'product-card';
         
-        // بناء مفاتيح الترجمة
-        const nameKey = `product_${product.ID}_name`;
-        const descKey = `product_${product.ID}_desc`;
+        const currentLang = localStorage.getItem('lang') || 'en';
         
-        // الحصول على النصوص المترجمة أو الافتراضية
-        const translatedName = t(nameKey) || product.name;
-        const translatedDesc = t(descKey) || product.description;
+        // الحصول على النصوص المترجمة من products.json
+        const translatedName = currentLang === 'ar' ? (product.nameAr || product.name) : product.name;
+        const translatedDesc = currentLang === 'ar' ? (product.descriptionAr || product.description) : product.description;
         
         card.innerHTML = `
             <img src="${product.image}" alt="${translatedName}" loading="lazy">

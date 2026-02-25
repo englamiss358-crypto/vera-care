@@ -2,6 +2,7 @@
   {
     "ID": "1",
     "name": "One Product. Complete Daily Nutrition.",
+    "nameAr": "منتج واحد. تغذية يومية شاملة.",
     "description": "Balanced Daily Nutrition in One Product",
     "descriptionAr": "تغذية يومية متوازنة في منتج واحد",
     "image": "images/vera-mega.jpg",
@@ -115,6 +116,7 @@
   {
     "ID": "2",
     "name": "Fertility & Vitality in One Chew – For Men & Women",
+    "nameAr": "الخصوبة والحيوية في قرص مضغ واحد - للرجال والنساء",
     "description": "A daily chewable packed with essential nutrients and antioxidants to naturally support reproductive health and overall wellness.",
     "descriptionAr": "قرص مضغ يومي غني بالعناصر الغذائية الأساسية ومضادات الأكسدة لدعم الصحة الإنجابية والصحة العامة بشكل طبيعي.",
     "image": "images/vera-ferti.jpg",
