@@ -9,57 +9,83 @@
     "benefits": [
       {
         "title": "Boosts Focus & Brain Function",
-        "description": "Thanks to high-purity Omega-3 and a full B-vitamin complex that supports cognitive health."
+        "titleAr": "يعزز التركيز ووظائف الدماغ",
+        "description": "Thanks to high-purity Omega-3 and a full B-vitamin complex that supports cognitive health.",
+        "descriptionAr": "بفضل أوميغا-3 عالية النقاء ومركب فيتامين ب الكامل الذي يدعم الصحة الإدراكية."
       },
       {
         "title": "Fights Fatigue & Supports Daily Energy",
-        "description": "With vitamin B5 and magnesium to enhance physical and mental performance."
+        "titleAr": "يحارب التعب ويدعم الطاقة اليومية",
+        "description": "With vitamin B5 and magnesium to enhance physical and mental performance.",
+        "descriptionAr": "مع فيتامين B5 والمغنيسيوم لتحسين الأداء البدني والذهني."
       },
       {
         "title": "Improves Skin Radiance & Reduces Wrinkles",
-        "description": "Omega-3 combined with vitamin C and biotin helps nourish skin and promote collagen production."
+        "titleAr": "يحسن إشراقة البشرة ويقلل التجاعيد",
+        "description": "Omega-3 combined with vitamin C and biotin helps nourish skin and promote collagen production.",
+        "descriptionAr": "أوميغا-3 مع فيتامين C والبيوتين يساعد على تغذية البشرة وتعزيز إنتاج الكولاجين."
       },
       {
         "title": "Strengthens Hair & Nails",
-        "description": "Biotin and zinc promote healthy hair growth and improve nail strength."
+        "titleAr": "يقوي الشعر والأظافر",
+        "description": "Biotin and zinc promote healthy hair growth and improve nail strength.",
+        "descriptionAr": "البيوتين والزنك يعززان نمو الشعر الصحي ويحسنان قوة الأظافر."
       },
       {
         "title": "Supports Immunity & Cellular Protection",
-        "description": "With selenium, zinc, vitamin C, and D3 for strong immune defense and antioxidant action."
+        "titleAr": "يدعم المناعة والحماية الخلوية",
+        "description": "With selenium, zinc, vitamin C, and D3 for strong immune defense and antioxidant action.",
+        "descriptionAr": "مع السيلينيوم والزنك وفيتامين C و D3 للدفاع المناعي القوي والعمل المضاد للأكسدة."
       }
     ],
     "ingredients": [
       {
         "name": "Omega-3 (500 mg)",
-        "description": "Supports brain, heart, joints, and reduces inflammation."
+        "nameAr": "أوميغا-3 (500 ملغ)",
+        "description": "Supports brain, heart, joints, and reduces inflammation.",
+        "descriptionAr": "يدعم الدماغ والقلب والمفاصل ويقلل الالتهاب."
       },
       {
         "name": "Zinc",
-        "description": "Boosts immune system, promotes wound healing, and strengthens hair and nails."
+        "nameAr": "الزنك",
+        "description": "Boosts immune system, promotes wound healing, and strengthens hair and nails.",
+        "descriptionAr": "يعزز جهاز المناعة ويعزز التئام الجروح ويقوي الشعر والأظافر."
       },
       {
         "name": "Biotin",
-        "description": "Enhances hair growth, improves skin elasticity, and supports metabolism."
+        "nameAr": "البيوتين",
+        "description": "Enhances hair growth, improves skin elasticity, and supports metabolism.",
+        "descriptionAr": "يعزز نمو الشعر ويحسن مرونة البشرة ويدعم الأيض."
       },
       {
         "name": "Vitamin B5 (Pantothenic Acid)",
-        "description": "Reduces mental fatigue and supports energy metabolism."
+        "nameAr": "فيتامين B5 (حمض البانتوثنيك)",
+        "description": "Reduces mental fatigue and supports energy metabolism.",
+        "descriptionAr": "يقلل التعب العقلي ويدعم استقلاب الطاقة."
       },
       {
         "name": "Magnesium",
-        "description": "Vital for nerve and muscle health; reduces stress and muscle cramps."
+        "nameAr": "المغنيسيوم",
+        "description": "Vital for nerve and muscle health; reduces stress and muscle cramps.",
+        "descriptionAr": "حيوي لصحة الأعصاب والعضلات؛ يقلل التوتر وتقلصات العضلات."
       },
       {
         "name": "Vitamin D3",
-        "description": "Enhances calcium absorption and strengthens bones and immunity."
+        "nameAr": "فيتامين D3",
+        "description": "Enhances calcium absorption and strengthens bones and immunity.",
+        "descriptionAr": "يعزز امتصاص الكالسيوم ويقوي العظام والمناعة."
       },
       {
         "name": "Vitamin C",
-        "description": "A powerful antioxidant that supports skin health and immune defense."
+        "nameAr": "فيتامين C",
+        "description": "A powerful antioxidant that supports skin health and immune defense.",
+        "descriptionAr": "مضاد أكسدة قوي يدعم صحة البشرة والدفاع المناعي."
       },
       {
         "name": "B-Complex (B1, B2, B3, B6, B12)",
-        "description": "Supports mood, focus, and energy production."
+        "nameAr": "مركب ب (B1، B2، B3، B6، B12)",
+        "description": "Supports mood, focus, and energy production.",
+        "descriptionAr": "يدعم الحالة المزاجية والتركيز وإنتاج الطاقة."
       }
     ],
     "whyStandOut": [
@@ -67,10 +93,20 @@
       "Single daily capsule – Get your Omega-3 + essential vitamins and minerals all in one.",
       "Advanced formula – Combines brain, skin, and immune health into one convenient dose."
     ],
+    "whyStandOutAr": [
+      "لا توجد زيوت سمك - 100٪ أوميغا-3 نقي بدون رائحة السمك أو الطعم الغير محبب.",
+      "كبسولة يومية واحدة - احصل على أوميغا-3 + الفيتامينات والمعادن الأساسية كل ذلك في واحد.",
+      "صيغة متقدمة - تجمع بين صحة الدماغ والجلد والمناعة في جرعة واحدة مريحة."
+    ],
     "howToUse": [
       "Chew one tablet daily.",
       "It is preferable to consume the medicine based on the doctor's guidance, to obtain the appropriate dose.",
       "Food supplements should be as part of varied and balanced diet."
+    ],
+    "howToUseAr": [
+      "امضغ قرص واحد يومياً.",
+      "من الأفضل تناول الدواء بناءً على توجيهات الطبيب للحصول على الجرعة المناسبة.",
+      "يجب أن تكون المكملات الغذائية جزءاً من نظام غذائي متنوع ومتوازن."
     ],
     "fullDescription": "What's Inside – and Why It Works: Boosts Focus & Brain Function thanks to high-purity Omega-3 and a full B-vitamin complex that supports cognitive health. Fights Fatigue & Supports Daily Energy with vitamin B5 and magnesium to enhance physical and mental performance. Improves Skin Radiance & Reduces Wrinkles - Omega-3 combined with vitamin C and biotin helps nourish skin and promote collagen production. Strengthens Hair & Nails - Biotin and zinc promote healthy hair growth and improve nail strength. Supports Immunity & Cellular Protection with selenium, zinc, vitamin C, and D3 for strong immune defense and antioxidant action. Active and Essential Ingredients: Omega-3 (500 mg) supports brain, heart, joints, and reduces inflammation. Zinc boosts immune system, promotes wound healing, and strengthens hair and nails. Biotin enhances hair growth, improves skin elasticity, and supports metabolism. Vitamin B5 (Pantothenic Acid) reduces mental fatigue and supports energy metabolism. Magnesium vital for nerve and muscle health; reduces stress and muscle cramps. Vitamin D3 enhances calcium absorption and strengthens bones and immunity. Vitamin C a powerful antioxidant that supports skin health and immune defense. B-Complex (B1, B2, B3, B6, B12) supports mood, focus, and energy production. Why VERA MEGA Stands Out: No fish oil – 100% pure Omega-3 without the fishy smell or aftertaste. Single daily capsule – Get your Omega-3 + essential vitamins and minerals all in one. Advanced formula – Combines brain, skin, and immune health into one convenient dose. How to Use: Chew one tablet daily. It is preferable to consume the medicine based on the doctor's guidance, to obtain the appropriate dose. Food supplements should be as part of varied and balanced diet."
   },
@@ -84,31 +120,45 @@
     "benefits": [
       {
         "title": "Supports Female Ovulation & Egg Health",
-        "description": "Myo-Inositol and D-Chiro Inositol help regulate menstrual cycles, improve ovulation, and enhance egg quality, especially beneficial for women with PCOS."
+        "titleAr": "يدعم الإباضة وصحة البويضات لدى النساء",
+        "description": "Myo-Inositol and D-Chiro Inositol help regulate menstrual cycles, improve ovulation, and enhance egg quality, especially beneficial for women with PCOS.",
+        "descriptionAr": "ميو-إينوسيتول ود-كيرو إينوسيتول يساعدان في تنظيم دورات الحيض وتحسين الإباضة وتعزيز جودة البويضات، خاصة للنساء المصابات بتكيس المبايض."
       },
       {
         "title": "Enhances Male Fertility & Sperm Quality",
-        "description": "L-Arginine, Zinc, and Selenium support sperm count, motility, and overall male reproductive health."
+        "titleAr": "يعزز خصوبة الرجال وجودة الحيوانات المنوية",
+        "description": "L-Arginine, Zinc, and Selenium support sperm count, motility, and overall male reproductive health.",
+        "descriptionAr": "إل-أرجينين والزنك والسيلينيوم يدعمون عدد الحيوانات المنوية وحركتها والصحة الإنجابية العامة للرجال."
       },
       {
         "title": "Balances Hormones & Metabolic Health",
-        "description": "D-Chiro Inositol enhances insulin sensitivity and supports healthy hormonal balance."
+        "titleAr": "يوازن الهرمونات والصحة الأيضية",
+        "description": "D-Chiro Inositol enhances insulin sensitivity and supports healthy hormonal balance.",
+        "descriptionAr": "د-كيرو إينوسيتول يعزز حساسية الأنسولين ويدعم التوازن الهرموني الصحي."
       },
       {
         "title": "Powerful Antioxidant Protection",
-        "description": "N-Acetyl Cysteine, Vitamin C, Co-Q10, and Alpha Lipoic Acid protect reproductive cells from oxidative stress, supporting healthy fertility."
+        "titleAr": "حماية قوية مضادة للأكسدة",
+        "description": "N-Acetyl Cysteine, Vitamin C, Co-Q10, and Alpha Lipoic Acid protect reproductive cells from oxidative stress, supporting healthy fertility.",
+        "descriptionAr": "ن-أسيتيل سيستين وفيتامين C وCo-Q10 وحمض ألفا ليبويك يحمون الخلايا الإنجابية من الإجهاد التأكسدي ويدعمون الخصوبة الصحية."
       },
       {
         "title": "Complete Nutritional Support for Fertility",
-        "description": "Includes Folic Acid, Vitamin B12, Vitamin B6, Biotin, and Vitamin D3 to support cellular health, energy metabolism, and reproductive wellness."
+        "titleAr": "دعم غذائي شامل للخصوبة",
+        "description": "Includes Folic Acid, Vitamin B12, Vitamin B6, Biotin, and Vitamin D3 to support cellular health, energy metabolism, and reproductive wellness.",
+        "descriptionAr": "يحتوي على حمض الفوليك وفيتامين B12 وB6 والبيوتين وD3 لدعم صحة الخلايا واستقلاب الطاقة والصحة الإنجابية."
       },
         {
           "title": "Boosts Energy & Cellular Function",
-          "description": "Co-Q10, Vitamin B-complex, and L-Arginine enhance cellular energy, helping your body support reproductive processes efficiently."
+          "titleAr": "يعزز الطاقة ووظيفة الخلايا",
+          "description": "Co-Q10, Vitamin B-complex, and L-Arginine enhance cellular energy, helping your body support reproductive processes efficiently.",
+          "descriptionAr": "Co-Q10 ومركب فيتامين ب وإل-أرجينين يعززون طاقة الخلايا ويساعدون جسمك على دعم العمليات الإنجابية بكفاءة."
         },
         {
           "title": "Easy-to-Take Daily Chewable",
-          "description": "Designed for adults, one chewable tablet provides a complete blend of nutrients for daily fertility support in a convenient form for both men and women."
+          "titleAr": "قرص مضغ يومي سهل الاستخدام",
+          "description": "Designed for adults, one chewable tablet provides a complete blend of nutrients for daily fertility support in a convenient form for both men and women.",
+          "descriptionAr": "مصمم للبالغين، قرص مضغ واحد يوفر مزيجًا كاملًا من المغذيات لدعم الخصوبة اليومي بشكل مريح للرجال والنساء."
         }
     ],
     "ingredients": [
@@ -181,6 +231,13 @@
       "Science-Backed Ingredients",
       "Complete Antioxidant & Nutrient Support"
     ],
+    "whyStandOutAr": [
+      "يدعم الرجال والنساء معاً",
+      "قابل للمضغ وسهل التناول",
+      "مكونات مدروسة سريرياً ثبت أنها تدعم الصحة الإنجابية",
+      "مكونات مدعومة علمياً",
+      "دعم شامل بمضادات الأكسدة والعناصر الغذائية"
+    ],
 "howToUse": [
   "For adults only.",
   "Food supplements should be as part of varied and balanced diet.",
@@ -190,6 +247,15 @@
   "Not for use by children.",
   "Do not exceed the recommended daily dose.",
   "Consult a physician before using it if you have any chronic medical conditions or are taking any medications."
+],
+"howToUseAr": [
+  "للبالغين فقط.",
+  "يجب أن تكون المكملات الغذائية جزءاً من نظام غذائي متنوع ومتوازن.",
+  "تُستخدم تحت إشراف طبي، يُحفظ بعيداً عن متناول الأطفال.",
+  "غير مناسب للاستخدام من قبل النساء الحوامل أو المرضعات.",
+  "غير مناسب للاستخدام من قبل الأطفال.",
+  "لا تتجاوز الجرعة اليومية الموصى بها.",
+  "استشر الطبيب قبل استخدامه إذا كان لديك أي حالات طبية مزمنة أو تتناول أي أدوية."
 ],
     "fullDescription": "A daily chewable packed with essential nutrients and antioxidants to naturally support reproductive health and overall wellness."
   }

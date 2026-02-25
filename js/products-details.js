@@ -42,7 +42,7 @@ function renderProductDetail() {
     // Render structured content with benefits, ingredients, and usage
     if (detailsContent && product.benefits && product.ingredients) {
         const currentLang = localStorage.getItem('language') || 'en';
-        const benefitsTitle = currentLang === 'ar' ? 'الفوائس الرئيسية' : 'Key Benefits';
+        const benefitsTitle = currentLang === 'ar' ? 'الفوائد الرئيسية' : 'Key Benefits';
         const ingredientsTitle = currentLang === 'ar' ? 'المكونات النشطة والأساسية' : 'Active & Essential Ingredients';
         const whyTitle = currentLang === 'ar' ? 'لماذا نتميز' : 'Why We Stand Out';
         const usageTitle = currentLang === 'ar' ? 'طريقة الاستخدام' : 'How to Use';
@@ -55,9 +55,11 @@ function renderProductDetail() {
                 <h3 class="section-title">${benefitsTitle}</h3>
                 <div class="benefits-grid">`;
             product.benefits.forEach(benefit => {
+                const title = currentLang === 'ar' ? (benefit.titleAr || benefit.title) : benefit.title;
+                const description = currentLang === 'ar' ? (benefit.descriptionAr || benefit.description) : benefit.description;
                 html += `<div class="benefit-card">
-                    <h4>${benefit.title}</h4>
-                    <p>${benefit.description}</p>
+                    <h4>${title}</h4>
+                    <p>${description}</p>
                 </div>`;
             });
             html += `</div></div>`;
@@ -69,31 +71,35 @@ function renderProductDetail() {
                 <h3 class="section-title">${ingredientsTitle}</h3>
                 <div class="ingredients-list">`;
             product.ingredients.forEach(ingredient => {
+                const name = currentLang === 'ar' ? (ingredient.nameAr || ingredient.name) : ingredient.name;
+                const description = currentLang === 'ar' ? (ingredient.descriptionAr || ingredient.description) : ingredient.description;
                 html += `<div class="ingredient-item">
-                    <div class="ingredient-name">${ingredient.name}</div>
-                    <div class="ingredient-desc">${ingredient.description}</div>
+                    <div class="ingredient-name">${name}</div>
+                    <div class="ingredient-desc">${description}</div>
                 </div>`;
             });
             html += `</div></div>`;
         }
 
         // Why We Stand Out Section
-        if (product.whyStandOut && product.whyStandOut.length > 0) {
+        const whyList = currentLang === 'ar' ? (product.whyStandOutAr || product.whyStandOut) : product.whyStandOut;
+        if (whyList && whyList.length > 0) {
             html += `<div class="product-section">
                 <h3 class="section-title">${whyTitle}</h3>
                 <ul class="highlights-list">`;
-            product.whyStandOut.forEach(point => {
+            whyList.forEach(point => {
                 html += `<li>${point}</li>`;
             });
             html += `</ul></div>`;
         }
 
         // How to Use Section
-        if (product.howToUse && product.howToUse.length > 0) {
+        const howToUseList = currentLang === 'ar' ? (product.howToUseAr || product.howToUse) : product.howToUse;
+        if (howToUseList && howToUseList.length > 0) {
             html += `<div class="product-section usage-section">
                 <h3>${usageTitle}</h3>
                 <ul class="usage-steps">`;
-            product.howToUse.forEach(step => {
+            howToUseList.forEach(step => {
                 html += `<li>${step}</li>`;
             });
             html += `</ul></div>`;
