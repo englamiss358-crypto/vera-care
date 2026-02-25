@@ -37,7 +37,7 @@ function renderProducts() {
             <img src="${product.image}" alt="${translatedName}" loading="lazy">
             <h3>${translatedName}</h3>
             <p>${translatedDesc}</p>
-            <a href="product-details.html?id=${product.ID}" class="btn-secondary" data-i18n="btn-secondary">View Details</a>
+            <a href="product-details.html?id=${product.ID}" class="btn-secondary" data-i18n="btn-secondary"></a>
         `;
         container.appendChild(card);
     });

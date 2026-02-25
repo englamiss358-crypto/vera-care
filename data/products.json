@@ -164,63 +164,93 @@
     "ingredients": [
       {
         "name": "Myo-Inositol (1100 mg)",
-        "description": "Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function."
+        "nameAr": "ميو-إينوسيتول (1100 ملغ)",
+        "description": "Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function.",
+        "descriptionAr": "يحسن الإباضة وجودة البويضات، خاصة في تكيس المبايض. يحسن حركة الحيوانات المنوية والوظيفة الأيضية."
       },
       {
         "name": "D-Chiro Inositol (50 mg)",
-        "description": "Enhances insulin signaling & Supports ovarian function and sperm quality ."
+        "nameAr": "د-كيرو إينوسيتول (50 ملغ)",
+        "description": "Enhances insulin signaling & Supports ovarian function and sperm quality .",
+        "descriptionAr": "يعزز إشارات الأنسولين ويدعم وظيفة المبيض وجودة الحيوانات المنوية."
       },
       {
         "name": "N-Acetyl Cysteine (100 mg)",
-        "description": "Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality."
+        "nameAr": "ن-أسيتيل سيستين (100 ملغ)",
+        "description": "Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality.",
+        "descriptionAr": "يدعم الإباضة ويقلل الإجهاد التأكسدي. يحسن حركة وعدد وجودة الحيوانات المنوية."
       },
       {
         "name": "L-Arginine (150 mg)",
-        "description": "Improves blood flow to reproductive organs. Supports ovulation and sperm production."
+        "nameAr": "إل-أرجينين (150 ملغ)",
+        "description": "Improves blood flow to reproductive organs. Supports ovulation and sperm production.",
+        "descriptionAr": "يحسن تدفق الدم إلى الأعضاء التناسلية. يدعم الإباضة وإنتاج الحيوانات المنوية."
       },
       {
         "name": "Coenzyme Q10 (100 mg)",
-        "description": "Powerful antioxidant for sperm and egg protection and quality. Boosts cell energy for fertilization."
+        "nameAr": "إنزيم Q10 المساعد (100 ملغ)",
+        "description": "Powerful antioxidant for sperm and egg protection and quality. Boosts cell energy for fertilization.",
+        "descriptionAr": "مضاد أكسدة قوي لحماية الحيوانات المنوية والبويضات وجودتها. يعزز طاقة الخلايا للإخصاب."
       },
       {
         "name": "Alpha Lipoic Acid (50 mg)",
-        "description": "Improve insulin resistance and egg quality. Improve sperm count, motility and DNA quality."
+        "nameAr": "حمض ألفا ليبويك (50 ملغ)",
+        "description": "Improve insulin resistance and egg quality. Improve sperm count, motility and DNA quality.",
+        "descriptionAr": "يحسن مقاومة الأنسولين وجودة البويضات. يحسن عدد وحركة وجودة الحمض النووي للحيوانات المنوية."
       },
       {
         "name": "Zinc (15 mg)",
-        "description": "Supports testosterone and sperm quality in men. Aids egg maturation and ovulation in women."
+        "nameAr": "الزنك (15 ملغ)",
+        "description": "Supports testosterone and sperm quality in men. Aids egg maturation and ovulation in women.",
+        "descriptionAr": "يدعم هرمون التستوستيرون وجودة الحيوانات المنوية عند الرجال. يساعد في نضج البويضات والإباضة عند النساء."
       },
       {
         "name": "Selenium (55 mcg)",
-        "description": "Protects sperm and eggs from oxidative damage. Improves sperm motility and morphology."
+        "nameAr": "السيلينيوم (55 ميكروغرام)",
+        "description": "Protects sperm and eggs from oxidative damage. Improves sperm motility and morphology.",
+        "descriptionAr": "يحمي الحيوانات المنوية والبويضات من الأضرار التأكسدية. يحسن حركة وشكل الحيوانات المنوية."
       },
       {
         "name": "Vitamin B6 (2.1 mg)",
-        "description": "Helps regulate menstrual cycles in women. Supports testosterone levels in men."
+        "nameAr": "فيتامين B6 (2.1 ملغ)",
+        "description": "Helps regulate menstrual cycles in women. Supports testosterone levels in men.",
+        "descriptionAr": "يساعد في تنظيم دورة الحيض عند النساء. يدعم مستويات التستوستيرون عند الرجال."
       },
       {
         "name": "Folic Acid B9 (200 mcg)",
-        "description": "Prevents neural tube defects in pregnancy. Improves egg and sperm DNA quality."
+        "nameAr": "حمض الفوليك B9 (200 ميكروغرام)",
+        "description": "Prevents neural tube defects in pregnancy. Improves egg and sperm DNA quality.",
+        "descriptionAr": "يمنع عيوب الأنبوب العصبي في الحمل. يحسن جودة الحمض النووي للبويضات والحيوانات المنوية."
       },
       {
         "name": "Vitamin B12 (2.5 mcg)",
-        "description": "Supports sperm formation, count, and DNA stability. Improves ovulation and embryo implantation."
+        "nameAr": "فيتامين B12 (2.5 ميكروغرام)",
+        "description": "Supports sperm formation, count, and DNA stability. Improves ovulation and embryo implantation.",
+        "descriptionAr": "يدعم تكوين الحيوانات المنوية وعددها واستقرار الحمض النووي. يحسن الإباضة وانغراس الجنين."
       },
       {
         "name": "Vitamin D3 (10 mcg)",
-        "description": "Supports healthy skin, hair, and nails during fertility and pregnancy. Aids in energy metabolism."
+        "nameAr": "فيتامين D3 (10 ميكروغرام)",
+        "description": "Supports healthy skin, hair, and nails during fertility and pregnancy. Aids in energy metabolism.",
+        "descriptionAr": "يدعم صحة الجلد والشعر والأظافر أثناء الخصوبة والحمل. يساعد في استقلاب الطاقة."
       },
       {
         "name": "Vitamin C (60 mg)",
-        "description": "Protects sperm and eggs from oxidative stress. Improves sperm quality and nutrient absorption."
+        "nameAr": "فيتامين C (60 ملغ)",
+        "description": "Protects sperm and eggs from oxidative stress. Improves sperm quality and nutrient absorption.",
+        "descriptionAr": "يحمي الحيوانات المنوية والبويضات من الإجهاد التأكسدي. يحسن جودة الحيوانات المنوية وامتصاص المغذيات."
       },
       {
         "name": "Biotin (50 mcg)",
-        "description": "Aids in metabolic and hormonal balance. Supports energy metabolism for sperm production."
+        "nameAr": "البيوتين (50 ميكروغرام)",
+        "description": "Aids in metabolic and hormonal balance. Supports energy metabolism for sperm production.",
+        "descriptionAr": "يساعد في التوازن الأيضي والهرموني. يدعم استقلاب الطاقة لإنتاج الحيوانات المنوية."
       },
       {
         "name": "Chromium picolinate (200 mcg)",
-        "description": "Beneficial for PCOS management and metabolic balance linked to fertility."
+        "nameAr": "كروميوم بيكولينات (200 ميكروغرام)",
+        "description": "Beneficial for PCOS management and metabolic balance linked to fertility.",
+        "descriptionAr": "مفيد لإدارة تكيس المبايض والتوازن الأيضي المرتبط بالخصوبة."
       }
 
     ],
