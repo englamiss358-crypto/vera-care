@@ -41,7 +41,7 @@ function renderProductDetail() {
     
     // Render structured content with benefits, ingredients, and usage
     if (detailsContent && product.benefits && product.ingredients) {
-        const currentLang = localStorage.getItem('language') || 'en';
+        const currentLang = localStorage.getItem('lang') || 'en';
         const benefitsTitle = currentLang === 'ar' ? 'الفوائد الرئيسية' : 'Key Benefits';
         const ingredientsTitle = currentLang === 'ar' ? 'المكونات النشطة والأساسية' : 'Active & Essential Ingredients';
         const whyTitle = currentLang === 'ar' ? 'لماذا نتميز' : 'Why We Stand Out';
