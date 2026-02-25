@@ -76,75 +76,121 @@
   },
   {
     "ID": "2",
-    "name": "Targeted Daily Nutrition for Men & Women",
+    "name": "Fertility & Vitality in One Chew – For Men & Women",
     "description": "Advanced Chewable Formula with Vitamins, Minerals, Inositols & Antioxidants",
     "image": "images/vera-ferti.jpg",
     "ingredientsImage": "images/image-ferti.jpg",
-    "ingredientsDescription": "Specially formulated for reproductive health and fertility support in both men and women. Myo-Inositol (1100mg) regulates metabolic processes and improves ovulation quality, particularly beneficial for PCOS. D-Chiro Inositol (50mg) enhances insulin sensitivity and hormonal balance for optimal reproductive function. N-Acetyl Cysteine (100mg) is a powerful antioxidant that reduces oxidative stress and supports egg and sperm quality. Combined with essential vitamins and minerals including folate, vitamin B12, vitamin D, and zinc, this formula creates a comprehensive nutritional foundation for fertility and reproductive wellness.",
+"ingredientsDescription": "A scientifically balanced formula designed to support reproductive health in both men and women. Powered by Myo-Inositol (1100 mg) and D-Chiro Inositol (50 mg) to promote hormonal balance and healthy metabolic function. Enhanced with CoQ10, L-Arginine, N-Acetyl Cysteine, and Alpha Lipoic Acid to provide antioxidant protection and support egg and sperm vitality. Fortified with essential fertility nutrients including Vitamin D3, Vitamin C, Vitamin B6, Folate, Vitamin B12, Biotin, Zinc, Selenium, and Chromium to help maintain normal reproductive function, hormonal balance, and overall wellness. This comprehensive blend creates a strong nutritional foundation for couples seeking balanced reproductive support as part of a healthy lifestyle.",
     "benefits": [
       {
-        "title": "Improves Ovulation & Egg Quality",
-        "description": "Myo-Inositol supports ovulation and improves egg quality, especially beneficial for PCOS."
+        "title": "Supports Female Ovulation & Egg Health",
+        "description": "Myo-Inositol and D-Chiro Inositol help regulate menstrual cycles, improve ovulation, and enhance egg quality, especially beneficial for women with PCOS."
       },
       {
-        "title": "Enhances Sperm Motility & Quality",
-        "description": "Supports sperm count, motility, and overall reproductive health in men."
+        "title": "Enhances Male Fertility & Sperm Quality",
+        "description": "L-Arginine, Zinc, and Selenium support sperm count, motility, and overall male reproductive health."
       },
       {
-        "title": "Hormone Balance & Metabolic Support",
+        "title": "Balances Hormones & Metabolic Health",
         "description": "D-Chiro Inositol enhances insulin sensitivity and supports healthy hormonal balance."
       },
       {
-        "title": "Reduces Oxidative Stress",
-        "description": "N-Acetyl Cysteine works as a powerful antioxidant to protect reproductive cells."
+        "title": "Powerful Antioxidant Protection",
+        "description": "N-Acetyl Cysteine, Vitamin C, Co-Q10, and Alpha Lipoic Acid protect reproductive cells from oxidative stress, supporting healthy fertility."
       },
       {
-        "title": "Complete Nutritional Support",
-        "description": "Combined with folate, vitamin B12, vitamin D, and zinc for comprehensive fertility support."
-      }
+        "title": "Complete Nutritional Support for Fertility",
+        "description": "Includes Folic Acid, Vitamin B12, Vitamin B6, Biotin, and Vitamin D3 to support cellular health, energy metabolism, and reproductive wellness."
+      },
+        {
+          "title": "Boosts Energy & Cellular Function",
+          "description": "Co-Q10, Vitamin B-complex, and L-Arginine enhance cellular energy, helping your body support reproductive processes efficiently."
+        },
+        {
+          "title": "Easy-to-Take Daily Chewable",
+          "description": "Designed for adults, one chewable tablet provides a complete blend of nutrients for daily fertility support in a convenient form for both men and women."
+        }
     ],
     "ingredients": [
       {
         "name": "Myo-Inositol (1100 mg)",
-        "description": "Regulates metabolic processes, improves ovulation quality, and supports PCOS management."
+        "description": "Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function."
       },
       {
         "name": "D-Chiro Inositol (50 mg)",
-        "description": "Enhances insulin signaling and supports ovarian and sperm function."
+        "description": "Enhances insulin signaling & Supports ovarian function and sperm quality ."
       },
       {
         "name": "N-Acetyl Cysteine (100 mg)",
-        "description": "Powerful antioxidant that reduces oxidative stress and supports cell quality."
+        "description": "Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality."
       },
       {
-        "name": "Folate",
-        "description": "Essential for DNA synthesis and reproductive cell development."
+        "name": "L-Arginine (150 mg)",
+        "description": "Improves blood flow to reproductive organs. Supports ovulation and sperm production."
       },
       {
-        "name": "Vitamin B12",
-        "description": "Supports energy production and reproductive health."
+        "name": "Coenzyme Q10 (100 mg)",
+        "description": "Powerful antioxidant for sperm and egg protection and quality. Boosts cell energy for fertilization."
       },
       {
-        "name": "Vitamin D",
-        "description": "Crucial for hormone regulation and reproductive function."
+        "name": "Alpha Lipoic Acid (50 mg)",
+        "description": "Improve insulin resistance and egg quality. Improve sperm count, motility and DNA quality."
       },
       {
-        "name": "Zinc",
-        "description": "Essential for sperm production and female reproductive health."
+        "name": "Zinc (15 mg)",
+        "description": "Supports testosterone and sperm quality in men. Aids egg maturation and ovulation in women."
+      },
+      {
+        "name": "Selenium (55 mcg)",
+        "description": "Protects sperm and eggs from oxidative damage. Improves sperm motility and morphology."
+      },
+      {
+        "name": "Vitamin B6 (2.1 mg)",
+        "description": "Helps regulate menstrual cycles in women. Supports testosterone levels in men."
+      },
+      {
+        "name": "Folic Acid B9 (200 mcg)",
+        "description": "Prevents neural tube defects in pregnancy. Improves egg and sperm DNA quality."
+      },
+      {
+        "name": "Vitamin B12 (2.5 mcg)",
+        "description": "Supports sperm formation, count, and DNA stability. Improves ovulation and embryo implantation."
+      },
+      {
+        "name": "Vitamin D3 (10 mcg)",
+        "description": "Supports healthy skin, hair, and nails during fertility and pregnancy. Aids in energy metabolism."
+      },
+      {
+        "name": "Vitamin C (60 mg)",
+        "description": "Protects sperm and eggs from oxidative stress. Improves sperm quality and nutrient absorption."
+      },
+      {
+        "name": "Biotin (50 mcg)",
+        "description": "Aids in metabolic and hormonal balance. Supports energy metabolism for sperm production."
+      },
+      {
+        "name": "Chromium picolinate (200 mcg)",
+        "description": "Beneficial for PCOS management and metabolic balance linked to fertility."
       }
+
     ],
     "whyStandOut": [
-      "Scientific formula specifically designed for fertility support in both men and women.",
-      "Comprehensive approach combining inositols, antioxidants, and essential vitamins.",
+      "Supports Both Men & Women",
+      "Chewable & Easy to Take",
       "Clinically researched ingredients proven to support reproductive wellness.",
-      "Specially formulated for PCOS and fertility challenges."
+      "Science-Backed Ingredients",
+      "Complete Antioxidant & Nutrient Support"
     ],
-    "howToUse": [
-      "Chew one tablet daily with or without food.",
-      "Consistency is key - take daily for optimal results.",
-      "Consult with your healthcare provider for personalized guidance.",
-      "Food supplements should be part of a varied and balanced diet."
-    ],
-    "fullDescription": "Advanced Fertility Support Formula. Myo-Inositol (1100 mg): Improves ovulation and egg quality, especially in PCOS. Improves sperm motility and metabolic function. D-Chiro Inositol (50 mg): Enhances insulin signaling & supports ovarian function and sperm quality. N-Acetyl Cysteine (100 mg): Supports ovulation and reduces oxidative stress. Improves sperm motility, count, and quality."
+"howToUse": [
+  "For adults only.",
+  "Food supplements should be as part of varied and balanced diet.",
+  "Food supplements should be as part of varied and balanced diet.",
+  "Used under medical supervision, keep away from the children.",
+  "Not for use by pregnant or breastfeeding women.",
+  "Not for use by children.",
+  "Do not exceed the recommended daily dose.",
+  "Consult a physician before using it if you have any chronic medical conditions or are taking any medications."
+],
+    "fullDescription": "A daily chewable packed with essential nutrients and antioxidants to naturally support reproductive health and overall wellness."
   }
 ]
