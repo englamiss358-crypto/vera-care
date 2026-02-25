@@ -3,9 +3,11 @@
     "ID": "1",
     "name": "One Product. Complete Daily Nutrition.",
     "description": "Balanced Daily Nutrition in One Product",
+    "descriptionAr": "تغذية يومية متوازنة في منتج واحد",
     "image": "images/vera-mega.jpg",
     "ingredientsImage": "images/image-mega.jpg",
     "ingredientsDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 36+ essential nutrients in one convenient daily dose.",
+    "ingredientsDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 36+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة.",
     "benefits": [
       {
         "title": "Boosts Focus & Brain Function",
@@ -114,9 +116,11 @@
     "ID": "2",
     "name": "Fertility & Vitality in One Chew – For Men & Women",
     "description": "A daily chewable packed with essential nutrients and antioxidants to naturally support reproductive health and overall wellness.",
+    "descriptionAr": "قرص مضغ يومي غني بالعناصر الغذائية الأساسية ومضادات الأكسدة لدعم الصحة الإنجابية والصحة العامة بشكل طبيعي.",
     "image": "images/vera-ferti.jpg",
     "ingredientsImage": "images/image-ferti.jpg",
 "ingredientsDescription": "A scientifically balanced formula designed to support reproductive health in both men and women. Powered by Myo-Inositol (1100 mg) and D-Chiro Inositol (50 mg) to promote hormonal balance and healthy metabolic function. Enhanced with CoQ10, L-Arginine, N-Acetyl Cysteine, and Alpha Lipoic Acid to provide antioxidant protection and support egg and sperm vitality. Fortified with essential fertility nutrients including Vitamin D3, Vitamin C, Vitamin B6, Folate, Vitamin B12, Biotin, Zinc, Selenium, and Chromium to help maintain normal reproductive function, hormonal balance, and overall wellness. This comprehensive blend creates a strong nutritional foundation for couples seeking balanced reproductive support as part of a healthy lifestyle.",
+    "ingredientsDescriptionAr": "تركيبة علمية متوازنة مصممة لدعم الصحة الإنجابية للرجال والنساء. مدعومة بميو-إينوسيتول (1100 ملغ) ود-كيرو إينوسيتول (50 ملغ) لتعزيز التوازن الهرموني والوظيفة الأيضية الصحية. معززة بـ CoQ10 وإل-أرجينين وN-أسيتيل سيستين وحمض ألفا ليبويك لتوفير الحماية المضادة للأكسدة ودعم حيوية البويضات والحيوانات المنوية. مدعمة بالعناصر الغذائية الأساسية للخصوبة بما في ذلك فيتامين D3 وفيتامين C وفيتامين B6 وحمض الفوليك وفيتامين B12 والبيوتين والزنك والسيلينيوم والكروم للمساعدة في الحفاظ على الوظيفة الإنجابية الطبيعية والتوازن الهرموني والصحة العامة. هذا المزيج الشامل يخلق أساساً غذائياً قوياً للأزواج الذين يسعون للحصول على دعم إنجابي متوازن كجزء من نمط حياة صحي.",
     "benefits": [
       {
         "title": "Supports Female Ovulation & Egg Health",
