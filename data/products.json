@@ -1,11 +1,12 @@
 [
   {
     "ID": "1",
-    "name": "One Product. Complete Daily Nutrition.",
-    "nameAr": "منتج واحد. تغذية يومية شاملة.",
-    "description": "Balanced Daily Nutrition in One Product",
-    "descriptionAr": "تغذية يومية متوازنة في منتج واحد",
+    "name": "One Tablet. Complete Vitamin & Mineral Support.",
+    "nameAr": "قرص واحد. دعم كامل بالفيتامينات والمعادن.",
+"description": "One Tablet. Complete Vitamin & Mineral Support. Enriched with Omega-3 fatty acids for daily wellness. Supports heart, brain, and immune health. Promotes healthy hair, skin, and nails. Designed to help maintain energy and overall vitality.",
+"descriptionAr": "قرص واحد. دعم كامل بالفيتامينات والمعادن. غني بأحماض أوميغا-3 الدهنية لدعم الصحة اليومية. يدعم صحة القلب والدماغ والجهاز المناعي. يعزز صحة الشعر والبشرة والأظافر. مصمم للمساعدة في الحفاظ على الطاقة والحيوية العامة.",
     "image": "images/vera-mega.jpg",
+
     "ingredientsImage": "images/image-mega.jpg",
     "ingredientsDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 36+ essential nutrients in one convenient daily dose.",
     "ingredientsDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 36+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة.",
