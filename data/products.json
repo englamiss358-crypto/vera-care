@@ -8,8 +8,8 @@
     "image": "images/vera-mega.jpg",
 
     "ingredientsImage": "images/image-mega.jpg",
-    "ingredientsDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 36+ essential nutrients in one convenient daily dose.",
-    "ingredientsDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 36+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة.",
+    "ingredientsDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 20+ essential nutrients in one convenient daily dose.",
+    "ingredientsDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 20+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة.",
     "benefits": [
       {
         "title": "Boosts Focus & Brain Function",
@@ -112,8 +112,8 @@
       "من الأفضل تناول الدواء بناءً على توجيهات الطبيب للحصول على الجرعة المناسبة.",
       "يجب أن تكون المكملات الغذائية جزءاً من نظام غذائي متنوع ومتوازن."
     ],
-    "fullDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 36+ essential nutrients in one convenient daily dose.",
-    "fullDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 36+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة."
+    "fullDescription": "Each tablet contains a powerful blend of premium ingredients scientifically formulated to support complete wellness. Omega-3 (500mg) provides essential fatty acids for brain, heart, and joint health. A complete B-Complex ensures optimal energy metabolism and mental focus. Biotin strengthens hair and nails while supporting skin elasticity. Vitamin C and E work as powerful antioxidants to protect against cellular damage. Zinc and selenium boost immune function and reduce inflammation. Magnesium supports muscle relaxation and stress relief. Vitamin D3 enhances calcium absorption for strong bones. This comprehensive formula delivers 20+ essential nutrients in one convenient daily dose.",
+    "fullDescriptionAr": "يحتوي كل قرص على مزيج قوي من المكونات المميزة المصاغة علمياً لدعم الصحة الشاملة. أوميغا-3 (500 ملغ) توفر الأحماض الدهنية الأساسية لصحة الدماغ والقلب والمفاصل. مركب ب الكامل يضمن استقلاب الطاقة الأمثل والتركيز العقلي. البيوتين يقوي الشعر والأظافر مع دعم مرونة البشرة. فيتامينات C و E تعمل كمضادات أكسدة قوية للحماية من تلف الخلايا. الزنك والسيلينيوم يعززان وظيفة المناعة ويقللان الالتهاب. المغنيسيوم يدعم استرخاء العضلات وتخفيف التوتر. فيتامين D3 يعزز امتصاص الكالسيوم لعظام قوية. تقدم هذه الصيغة الشاملة 20+ عنصر غذائي أساسي في جرعة يومية واحدة مريحة."
   },
   {
     "ID": "2",
@@ -272,7 +272,7 @@
     "whyStandOutAr": [
       "يدعم الرجال والنساء معاً",
       "قابل للمضغ وسهل التناول",
-      "مكونات مدروسة سريرياً ثبت أنها تدعم الصحة الإنجابية",
+      "• يحتوي على مكونات تمت دراستها علميًا وتُستخدم لدعم الصحة الإنجابية",
       "مكونات مدعومة علمياً",
       "دعم شامل بمضادات الأكسدة والعناصر الغذائية"
     ],
