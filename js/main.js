@@ -100,8 +100,7 @@ function handleContactFormLocal() {
     if (!form) return;
     
     // تهيئة EmailJS بمفتاحك العام (Public Key)
-    // استبدل 'YOUR_PUBLIC_KEY' بمفتاحك من EmailJS
-    emailjs.init('YOUR_PUBLIC_KEY');
+    emailjs.init('pyDXq9dPMIzwso9Jb');
     
     form.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -124,8 +123,7 @@ function handleContactFormLocal() {
         };
         
         // إرسال البريد عبر EmailJS
-        // استبدل 'YOUR_SERVICE_ID' و 'YOUR_TEMPLATE_ID' بمعرفاتك من EmailJS
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+        emailjs.send('service_nl0jt3r', 'template_hkim227', templateParams)
             .then(() => {
                 alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح' : '✅ Thank you! Your message has been sent successfully');
                 form.reset();
