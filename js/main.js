@@ -122,8 +122,8 @@ function handleContactFormLocal() {
             to_name: 'VERA CARE Team'
         };
         
-        // إرسال البريد عبر EmailJS
-        emailjs.send('service_nl0jt3r', 'template_hkim227', templateParams)
+        // إرسال البريد عبر EmailJStemplate_28iffru
+        emailjs.send('service_nl0jt3r', 'template_28iffru', templateParams)
             .then(() => {
                 alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح' : '✅ Thank you! Your message has been sent successfully');
                 form.reset();
