@@ -99,16 +99,45 @@ function handleContactFormLocal() {
     const form = document.getElementById('contactForm');
     if (!form) return;
     
+    // تهيئة EmailJS بمفتاحك العام (Public Key)
+    // استبدل 'YOUR_PUBLIC_KEY' بمفتاحك من EmailJS
+    emailjs.init('YOUR_PUBLIC_KEY');
+    
     form.addEventListener('submit', (e) => {
         e.preventDefault();
+        
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = currentLang === 'ar' ? 'جاري الإرسال...' : 'Sending...';
+        submitBtn.disabled = true;
         
         const name = form.querySelector('input[type="text"]').value;
         const email = form.querySelector('input[type="email"]').value;
         const message = form.querySelector('textarea').value;
         
-        console.log('رسالة جديدة:', { name, email, message });
-        alert(currentLang === 'ar' ? 'شكراً! تم استقبال رسالتك' : 'Thank you! Your message has been received');
-        form.reset();
+        // معاملات البريد الإلكتروني
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message,
+            to_name: 'VERA CARE Team'
+        };
+        
+        // إرسال البريد عبر EmailJS
+        // استبدل 'YOUR_SERVICE_ID' و 'YOUR_TEMPLATE_ID' بمعرفاتك من EmailJS
+        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            .then(() => {
+                alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح' : '✅ Thank you! Your message has been sent successfully');
+                form.reset();
+            })
+            .catch((error) => {
+                console.error('خطأ في الإرسال:', error);
+                alert(currentLang === 'ar' ? '❌ عذراً، حدث خطأ في الإرسال. حاول مرة أخرى' : '❌ Sorry, an error occurred. Please try again');
+            })
+            .finally(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            });
     });
 }
 
