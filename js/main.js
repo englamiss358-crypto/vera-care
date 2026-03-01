@@ -84,7 +84,7 @@ function handleContactForm() {
             });
             
             if (response.ok) {
-                alert(currentLang === 'ar' ? 'تم إرسال الرسالة بنجاح!' : 'Message sent successfully!');
+                alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح. سنتواصل معك قريباً.' : '✅ Thank you! Your message was sent successfully. We will contact you soon.');
                 form.reset();
             }
         } catch (error) {
@@ -125,7 +125,7 @@ function handleContactFormLocal() {
         // إرسال البريد عبر EmailJStemplate_28iffru
         emailjs.send('service_nl0jt3r', 'template_28iffru', templateParams)
             .then(() => {
-                alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح' : '✅ Thank you! Your message has been sent successfully');
+                alert(currentLang === 'ar' ? '✅ شكراً! تم إرسال رسالتك بنجاح. سنتواصل معك قريباً.' : '✅ Thank you! Your message was sent successfully. We will contact you soon.');
                 form.reset();
             })
             .catch((error) => {
